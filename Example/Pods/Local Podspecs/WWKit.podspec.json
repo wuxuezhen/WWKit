@@ -1,8 +1,8 @@
 {
   "name": "WWKit",
-  "version": "0.1.0",
-  "summary": "A short description of WWKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.2",
+  "summary": "WWKit基础库",
+  "description": "WWKit是iOS项目通用基础库",
   "homepage": "https://github.com/wuxuezhen/WWKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/wuxuezhen/WWKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "WWKit/Classes/**/*"
 }

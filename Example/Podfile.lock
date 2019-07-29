@@ -1,16 +1,16 @@
 PODS:
-  - WWKit (0.1.0)
+  - WWKit (0.0.1)
 
 DEPENDENCIES:
-  - WWKit (from `../`)
+  - WWKit
 
-EXTERNAL SOURCES:
-  WWKit:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WWKit
 
 SPEC CHECKSUMS:
-  WWKit: 29553dceffc7f3bc3058a02536715d5e914d3afe
+  WWKit: 32ad4fc9b799388ad63424c21c9fe8ac48a82ca8
 
-PODFILE CHECKSUM: 786fbc4cfd7c6a803d7374acca157603a3f9f1fc
+PODFILE CHECKSUM: 14051649ca7577e4503d668075233c0d57c5709c
 
 COCOAPODS: 1.7.0.rc.1
