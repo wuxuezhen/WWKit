@@ -1,0 +1,6 @@
+framework module WWKit {
+  umbrella header "WWKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

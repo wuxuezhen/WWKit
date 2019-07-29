@@ -1,0 +1,16 @@
+PODS:
+  - WWKit (0.1.0)
+
+DEPENDENCIES:
+  - WWKit (from `../`)
+
+EXTERNAL SOURCES:
+  WWKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWKit: 29553dceffc7f3bc3058a02536715d5e914d3afe
+
+PODFILE CHECKSUM: 786fbc4cfd7c6a803d7374acca157603a3f9f1fc
+
+COCOAPODS: 1.7.0.rc.1
