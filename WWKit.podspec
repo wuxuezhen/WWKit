@@ -27,8 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'WWKit/Classes/**/*'
+  
   s.subspec 'WWGCD' do |ss|
       ss.source_files = 'WWKit/Classes/WWGCD/*.{h,m}'
   end
@@ -38,8 +37,9 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'UIKit'
     s.dependency 'MBProgressHUD'
     s.dependency 'YYKit'
     s.dependency 'AFNetworking'
+    s.dependency 'MJRefresh'
 end

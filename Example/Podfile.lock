@@ -1,16 +1,49 @@
 PODS:
-  - WWKit (0.0.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.1.0)
+  - WWKit (0.0.4):
+    - AFNetworking
+    - MBProgressHUD
+    - WWKit/WWGCD (= 0.0.4)
+    - YYKit
+  - WWKit/WWGCD (0.0.4):
+    - AFNetworking
+    - MBProgressHUD
+    - YYKit
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
-  - WWKit
+  - WWKit (~> 0.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MBProgressHUD
     - WWKit
+    - YYKit
 
 SPEC CHECKSUMS:
-  WWKit: 32ad4fc9b799388ad63424c21c9fe8ac48a82ca8
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  WWKit: b5bd52464a879f5e141d68fda38131031a4d4efe
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 028e8126524cd93f74fe5ff77aab70c2b1ed34d2
+PODFILE CHECKSUM: 4ccde975ce962fbe5249856319a2e832e6b028ba
 
 COCOAPODS: 1.7.0.rc.1

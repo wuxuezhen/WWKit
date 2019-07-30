@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "WWGCDQueue.h"
+#import "WWGCDTimer.h"
+#import "WWGCDQueue.h"
+#import "WWGCDTimer.h"
 
 FOUNDATION_EXPORT double WWKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char WWKitVersionString[];

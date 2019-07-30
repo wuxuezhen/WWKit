@@ -1,4 +1,4 @@
-#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
@@ -6,5 +6,5 @@ platform :ios, '9.0'
 inhibit_all_warnings!
 
 target 'WWKit_Example' do
-  pod 'WWKit'
+  pod 'WWKit', '~> 0.0.4'
 end
