@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WWKit/Classes/**/*'
   s.subspec 'WWGCD' do |ss|
-      ss.source_files = 'WWKit/Classes/WWGCD/*'*.{h,m}'
+      ss.source_files = 'WWKit/Classes/WWGCD/*.{h,m}'
       
   # s.resource_bundles = {
   #   'WWKit' => ['WWKit/Assets/*.png']
