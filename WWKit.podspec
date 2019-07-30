@@ -29,7 +29,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'WWKit/Classes/**/*'
-  
+  s.subspec 'WWGCD' do |ss|
+      ss.source_files = 'WWKit/Classes/WWGCD/*'*.{h,m}'
+  end
   # s.resource_bundles = {
   #   'WWKit' => ['WWKit/Assets/*.png']
   # }
