@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WWKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'WWKit基础库'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,14 @@ Pod::Spec.new do |s|
   s.subspec 'WWGCD' do |ss|
       ss.source_files = 'WWKit/Classes/WWGCD/*.{h,m}'
   end
+  
   # s.resource_bundles = {
   #   'WWKit' => ['WWKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'MBProgressHUD'
+    s.dependency 'YYKit'
+    s.dependency 'AFNetworking'
 end

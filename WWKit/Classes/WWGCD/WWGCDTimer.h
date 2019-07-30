@@ -1,5 +1,5 @@
 //
-//  BDGCDTimer.h
+//  WWGCDTimer.h
 //
 //  Created by wzz on 2018/3/16.
 //  Copyright © 2018年 wzz. All rights reserved.
@@ -7,11 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BDGCDTimer : NSObject
+@interface WWGCDTimer : NSObject
 
 @property (nonatomic, assign) float timeSpace;
-@property (nonatomic, copy) void(^bd_handler)(void);
-@property (nonatomic, copy) void(^bd_failure)(void);
+@property (nonatomic, copy) void(^ww_handler)(void);
+@property (nonatomic, copy) void(^ww_failure)(void);
 
 /**
   初始化
@@ -23,18 +23,18 @@
 /**
  启动/恢复
  */
-- (void)bd_resume;
+- (void)ww_resume;
 
 
 /**
  暂停
  */
-- (void)bd_suspend;
+- (void)ww_suspend;
 
 
 /**
  停止/取消
  */
-- (void)bd_cancel;
+- (void)ww_cancel;
 
 @end
