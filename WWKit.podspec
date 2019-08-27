@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   s.subspec 'WWGCD' do |ss|
-      ss.source_files = 'WWKit/Classes/WWGCD/*.{h,m}'
+      ss.source_files = 'WWKit/Classes/WWGCD'
   end
   
   # s.resource_bundles = {
